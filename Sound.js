@@ -35,7 +35,7 @@ function mousePressed() {
 }
 function keyTyped(){
   if (key === " "){
- // song.stop();
+  song.stop();
   }
   else {song.play();}
 }
